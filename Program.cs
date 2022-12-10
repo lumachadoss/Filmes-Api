@@ -12,7 +12,7 @@ namespace api1
     public class Program
     {
         public static void Main(string[] args)
-        {
+        {   // create host builder for api
             CreateHostBuilder(args).Build().Run();
         }
 
